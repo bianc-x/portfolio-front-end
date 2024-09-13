@@ -14,7 +14,7 @@ Bem-vindo ao meu portfólio! Aqui você encontrará uma coleção dos meus proje
 ## Como Navegar
 
 Você pode visitar meu portfólio online através do seguinte link:  
-[Portfólio - Bianca Rocha](https://portfolio-sage-chi-55.vercel.app/)
+[Portfólio - Bianca Rocha](https://portfolio-front-end-rosy.vercel.app/)
 
 ## Contato
 
