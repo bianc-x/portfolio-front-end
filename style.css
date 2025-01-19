@@ -338,54 +338,66 @@ section.portfolio .flex{
 }
 
 /* CONTATO */
-section.formulario{
-    padding: 0 4%;
-}
-
-form{
-    max-width: 500px;
-    margin: 0 auto;
+/* Centraliza os botões na página */
+.social-links {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 50px;
+    margin-top: 70px;
+    flex-direction: column; /* Coloca os itens um embaixo do outro */
+    gap: 60px; /* Espaçamento entre os botões */
+    align-items: center; /* Alinha os botões ao centro */
 }
 
-form input, form textarea{
-    width: 100%;
-    background-color: #383e4aa0;
-    border: 0;
-    outline: 0;
-    padding: 20px 15px;
-    border-radius: 10px;
-    color: #ffffff;
-    font-size: 18px;
+/* Estiliza cada link social como um botão */
+.social-link {
+    text-decoration: none;
+    font-size: 24px; /* Tamanho do texto */
+    font-weight: 500; /* Peso da fonte */
+    padding: 30px 40px; /* Aumenta o botão */
+    color: #fff; /* Cor do texto */
+    border-radius: 8px; /* Cantos arredondados */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efeito de transição */
+    width: 100%; /* Torna o botão mais largo */
+    max-width: 300px; /* Limita a largura */
+    text-align: center; /* Centraliza o texto */
 }
 
-form textarea{
-    resize: none;
-    max-height: 200px;
+/* Cores específicas para cada botão */
+.social-link.linkedin {
+    background: linear-gradient(135deg, #003552, #001c2c); /* Cor do botão LinkedIn */
 }
 
-form .btn-enviar{
-    margin-top: 20px;
-    text-align: center;
+.social-link.linkedin:hover {
+    background: linear-gradient(135deg, #002e47, #001722); /* Hover LinkedIn */
+    transform: scale(1.05); /* Aumenta o botão ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
 }
 
-form .btn-enviar input{
-    cursor: pointer;
-    background-color: #03FA6E;
-    width: 120px;
-    color: #181D27;
-    font-weight: 600;
-    transition: .2s;
+.social-link.github {
+    background: linear-gradient(135deg, #24292f, #171a1e); /* Cor do botão GitHub */
 }
 
-form .btn-enviar input:hover{
-    box-shadow: 0 0 8px #03fa6ea1;
-    transform: scale(1.05);
+.social-link.github:hover {
+    background: linear-gradient(135deg, #171a1e, #0d0f11); /* Hover GitHub */
+    transform: scale(1.05); /* Aumenta o botão ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
 }
+
+.social-link.email {
+    background: linear-gradient(135deg, #7b2d22, #42150f); /* Cor do botão Email */
+}
+
+.social-link.email:hover {
+    background: linear-gradient(135deg, #54231d, #3a130f); /* Hover Email */
+    transform: scale(1.05); /* Aumenta o botão ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+/* Estiliza os ícones */
+.social-link i {
+    font-size: 28px; /* Tamanho do ícone */
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
+}
+
 
 /* RODAPÉ */
 footer{
